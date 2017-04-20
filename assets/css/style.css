@@ -199,9 +199,13 @@ aside {
 }
 aside .image {
   position: relative;
+  text-align: center;
+  padding-top: 15px;
 }
 aside .image img {
-  width: calc(100% - 20px);
+  width: calc(100% - 40px);
+  border: solid 4px white;
+  border-radius: 50%;
 }
 /* Left-side Navigation */
 nav {
